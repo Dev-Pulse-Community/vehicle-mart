@@ -62,4 +62,5 @@ below packages / pluggins will be use in react frontend
 | Plugin | DOCUMENTATION |
 | ------ | ------ |
 | MUI | [Offical documentation](https://mui.com/material-ui/getting-started/overview/) |
+|REACT ROUTER | [Offical documentation](https://reactrouter.com/docs/en/v6/getting-started/overview) |
 
