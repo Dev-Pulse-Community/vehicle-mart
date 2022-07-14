@@ -47,7 +47,11 @@ npm start
 ```
 
 
-
+## configure JEST framework for unit testing
+- should have min 80% coverage
+- should create test for each modules
+- should create test for each roles
+- should create test for each functionalities
 
 
 
