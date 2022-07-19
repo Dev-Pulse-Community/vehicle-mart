@@ -25,6 +25,10 @@ export default function ButtonAppBar() {
       title: "HOME",
     },
     {
+      url: "/login",
+      title: "LOGIN"
+    },
+    {
       url: "/about",
       title: "ABOUT US",
     },

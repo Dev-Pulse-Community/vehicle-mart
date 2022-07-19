@@ -5,6 +5,7 @@ import { Box } from "@mui/material";
 import Navigationbar from "./components/Navigationbar";
 import Home from "./views/Home";
 import About from "./views/About";
+import Login from "./views/Login";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navigationbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route exact path="login" element={<Login />} />
         <Route path="about" element={<About />} />
       </Routes>
     </React.Fragment>
