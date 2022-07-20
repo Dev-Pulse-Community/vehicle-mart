@@ -25,10 +25,6 @@ export default function ButtonAppBar() {
       title: "HOME",
     },
     {
-      url: "/login",
-      title: "LOGIN"
-    },
-    {
       url: "/about",
       title: "ABOUT US",
     },
@@ -43,6 +39,10 @@ export default function ButtonAppBar() {
     {
       url: "/register",
       title: "REGISTER",
+    },
+    {
+      url: "/login",
+      title: "LOGIN"
     },
   ];
   const trigger = useScrollTrigger();
