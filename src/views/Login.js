@@ -13,6 +13,7 @@ import {
   Typography,
 } from "@mui/material";
 import Link from "@mui/material/Link";
+import { Link as RouterLink } from "react-router-dom";
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
@@ -145,7 +146,7 @@ export const Login = () => {
                   </Link>
                 </Grid>
                 <Grid item>
-                  <Link href="#" variant="body2">
+                  <Link component={RouterLink} to="/register" variant="body2">
                     {"Don't have an account? Sign Up"}
                   </Link>
                 </Grid>
