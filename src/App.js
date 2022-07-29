@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import { Box } from "@mui/material";
 import Navigationbar from "./components/Navigationbar";
 import Home from "./views/Home";
 import About from "./views/About";
