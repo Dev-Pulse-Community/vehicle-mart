@@ -63,4 +63,4 @@ below packages / pluggins will be use in react frontend
 | ------ | ------ |
 | MUI | [Offical documentation](https://mui.com/material-ui/getting-started/overview/) |
 |REACT ROUTER | [Offical documentation](https://reactrouter.com/docs/en/v6/getting-started/overview) |
-
+|REACT CAROUSEK | [Offical documentation](https://www.npmjs.com/package/react-owl-carousel) |
