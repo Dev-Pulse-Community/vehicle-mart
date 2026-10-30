@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --brand: #e0292f;
+  --brand-dark: #b81f24;
+  --dark: #101828;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f6f8;
+  color: #1f2937;
+}
+
+.hero-gradient {
+  background: linear-gradient(100deg, rgba(16, 24, 40, 0.92) 35%, rgba(16, 24, 40, 0.55) 70%, rgba(16, 24, 40, 0.25) 100%);
+}
+
+.section-title-bar::after {
+  content: '';
+  display: block;
+  width: 56px;
+  height: 4px;
+  background: var(--brand);
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+.car-card-img {
+  transition: transform 0.4s ease;
+}
+.car-card:hover .car-card-img {
+  transform: scale(1.06);
+}
